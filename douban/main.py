@@ -44,6 +44,7 @@ def search(search_text):
 
 if __name__ == '__main__':
     search_data = search("蜘蛛侠")
+    pprint(search_data)
     data = parse(search_data)
     pprint(data)
 

@@ -8,6 +8,7 @@ import xxhash
 from Crypto.Cipher import ARC4
 
 
+
 # 重写_read_object方法
 def _read_object(self, ref):
     result = self._objects[ref]
